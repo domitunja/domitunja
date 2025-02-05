@@ -10,7 +10,7 @@ export function SobreNosotros() {
     return (
         <section
             id="sobre-nosotros"
-            className="w-full h-auto flex items-center justify-center bg-[#171717] px-6 md:px-12 py-12"
+            className="py-32 w-full h-auto flex items-center justify-center bg-[#171717] px-6 md:px-12"
         >
             <div className="relative max-w-[82%] w-full flex flex-col md:flex-row items-center gap-x-10 gap-y-10 md:gap-y-0">
                 

@@ -21,7 +21,7 @@ export function Servicios() {
     return (
       <section
         id="servicios"
-        className="w-full min-h-auto bg-black flex flex-col items-center justify-center py-16 relative"
+        className="py-32 w-full min-h-auto bg-black flex flex-col items-center justify-center relative"
       >
         <div className="relative w-[80%] flex flex-col items-center justify-between gap-y-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-center relative mb-12 sm:mb-16">

@@ -11,7 +11,7 @@ export function Galeria() {
     return (
       <section
         id="portafolio"
-        className="w-full border-[#E63946] border-t-4 min-h-screen bg-black py-16 flex flex-col items-center justify-center"
+        className="py-32 w-full border-[#E63946] border-t-4 min-h-screen bg-black flex flex-col items-center justify-center"
       >
         <h2 className="text-4xl sm:text-5xl font-bold text-white text-center mb-12">
           Nuestra <strong className="text-[#E63946]">Galería</strong>
