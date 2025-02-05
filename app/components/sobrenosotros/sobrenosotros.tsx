@@ -2,6 +2,11 @@
 import { motion } from "framer-motion";
 
 export function SobreNosotros() {
+    
+    
+    const handle = () => {
+        window.location.href = "https://www.facebook.com/people/Domi-Tunja/100094429045417/?mibextid=rS40aB7S9Ucbxw6v"
+    }
     return (
         <section
             id="sobre-nosotros"
@@ -19,7 +24,7 @@ export function SobreNosotros() {
                     <img
                         src="/sobre1.png"
                         alt="Sobre nosotros"
-                        className="w-[80%] md:w-full max-w-md md:max-w-none rounded-2xl shadow-lg"
+                        className="w-[100%] md:w-full max-w-md md:max-w-none rounded-2xl shadow-lg"
                     />
                 </motion.div>
 
@@ -40,7 +45,7 @@ export function SobreNosotros() {
                         📍 Cobertura: Tunja y fuera de Tunja
                         📞 Contáctanos: 3203893619
                     </p>
-                    <button className="mx-auto mt-6 px-6 py-3 text-lg font-medium text-white bg-[#E63946] rounded-lg shadow-md transition-transform hover:scale-105">
+                    <button onClick={() => handle} className="mx-auto mt-6 px-6 py-3 text-lg font-medium text-white bg-[#E63946] rounded-lg shadow-md transition-transform hover:scale-105">
                         Conócenos más
                     </button>
                 </motion.div>
