@@ -45,9 +45,10 @@ export function SobreNosotros() {
                         📍 Cobertura: Tunja y fuera de Tunja
                         📞 Contáctanos: 3203893619
                     </p>
-                    <button onClick={() => handle} className="mx-auto mt-6 px-6 py-3 text-lg font-medium text-white bg-[#E63946] rounded-lg shadow-md transition-transform hover:scale-105">
+                    <button onClick={handle} className="mx-auto mt-6 px-6 py-3 text-lg font-medium text-white bg-[#E63946] rounded-lg shadow-md transition-transform hover:scale-105">
                         Conócenos más
                     </button>
+
                 </motion.div>
             </div>
         </section>
