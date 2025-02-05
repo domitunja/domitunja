@@ -32,7 +32,7 @@ export function Footer() {
                     <h3 className="text-lg font-semibold mb-4 text-[#E63946]">Contacto</h3>
                     <ul className="space-y-3">
                         <li>Teléfono: +57 3203893619</li>
-                        <li>Dirección: Calle Falsa 123</li>
+                        <li>Dirección: Calle 21 15 21</li>
                     </ul>
                 </div>
                 
