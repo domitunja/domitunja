@@ -1,4 +1,5 @@
 "use client"
+import { Detalles } from "./components/barradetalles/detalles";
 import { BotonWhatsapp } from "./components/llamadoAccion/accion";
 import { Main } from "./components/main/main";
 import Ubicacion from "./components/mapaUbicacion/mapa";
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <BotonWhatsapp/>
       <Main/>
+      <Detalles/>
       <SobreNosotros/>
       <Servicios/>
       <Galeria/>

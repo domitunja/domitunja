@@ -1,15 +1,13 @@
 export function Detalles() {
-    const metodosPagos = ["Nequi", "Daviplata", "Efectivo", "DataFono"];
-    
+    const horarios = "8:00 AM - 12:00 AM (Todos los días)";
+
     return (
-        <div className="w-full h-[30vh] flex flex-col items-center justify-center gap-y-6 bg-black rounded-xl shadow-md p-6">
-            <h2 className="text-xl font-bold text-white">Metodos de pago</h2>
-            <div className="w-[80%] flex flex-wrap justify-center items-center gap-6">
-                {metodosPagos.map((metodo) => (
-                    <div key={metodo} className="px-6 py-4 bg-red-500 text-white text-lg font-semibold rounded-2xl shadow-lg">
-                        {metodo}
-                    </div>
-                ))}
+        <div className="w-full  mx-auto h-auto flex flex-col items-center justify-center gap-6 bg-black shadow-md p-6 text-white">
+            <div className="w-full text-center mt-4">
+                <h2 className="text-2xl font-bold">Horarios</h2>
+                <p className="mt-2 text-lg bg-gray-950 py-2 px-4 rounded-lg shadow-md">
+                    {horarios}
+                </p>
             </div>
         </div>
     );

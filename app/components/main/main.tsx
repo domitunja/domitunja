@@ -4,7 +4,7 @@ import { GrInstagram } from "react-icons/gr";
 
 export function Main() {
   return (
-    <main className="w-full h-[190vh] lg:h-[110vh] bg-black flex items-center justify-center relative">
+    <main className="w-full h-[235vh] sm:h-[190vh] lg:h-[110vh] bg-black flex items-center justify-center relative">
       {/* Fondo */}
       <div className="w-full h-full absolute bg-black">
         <img src="fondo10.png" alt="fondo" className="w-full h-full opacity-20" />
@@ -35,6 +35,7 @@ export function Main() {
           </div>
         </div>
 
+        {/* Galería de imágenes */}
         <div className="relative z-10 h-[50%] w-full lg:h-[85%] lg:w-1/2 grid grid-cols-2 grid-rows-2 gap-2 p-4">
           <div className="bg-red-500 col-span-1 row-span-1 rounded-xl transition-transform duration-300 hover:scale-105 max-lg:col-span-2 max-lg:row-span-1">
             <img
